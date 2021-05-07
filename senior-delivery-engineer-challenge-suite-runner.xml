@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="RestAssuredAutomationProject Test Suite">
+    <test name="Senior Delivery Tests">
+        <classes>
+            <class name="com.box.LoginTest"/>
+            <class name="com.box.CreateFolderTest"/>
+            <class name="com.box.UploadFileTest"/>
+            <class name="com.box.LogoutTest"/>
+        </classes>
+    </test>
+</suite>
