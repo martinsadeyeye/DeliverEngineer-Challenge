@@ -60,7 +60,7 @@ public class WebCoreElement extends Element {
 
     public WebElement waitAndFindElement(By locator) {
 
-        WebDriverWait wait = new WebDriverWait(driver, 50);
+        WebDriverWait wait = new WebDriverWait(driver, 100);
         return wait.until(ExpectedConditions.presenceOfElementLocated(locator));
     }
 
